@@ -18,10 +18,11 @@ public class Application {
             System.out.println("4. 상품 삭제");
             System.out.println("5. 상품 등록");
             System.out.println("9. 프로그램 종료");
+            System.out.print("몇 번을 입력하시겠습니까? ");
             int input = sc.nextInt();
 
             switch (input) {
-                case 1: break;
+                case 1: ss.findAllProducts(); break;
                 case 2: break;
                 case 3: break;
                 case 4: break;

@@ -1,9 +1,10 @@
 package section01.storemanage.aggregate;
 
+import java.io.Serializable;
 import java.util.Date;
 
 
-public class Product {
+public class Product implements Serializable {
     int productID;
     String productName;
     int price;
