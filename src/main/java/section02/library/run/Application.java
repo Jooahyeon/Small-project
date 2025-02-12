@@ -8,7 +8,7 @@ public class Application {
         Scanner sc = new Scanner(System.in);
         while (true) {
             System.out.println("===== 도서 관리 시스템 =====");
-            System.out.println("1. : ");
+            System.out.println("1. 도서 목록 조회: ");
             System.out.println("2. : ");
             System.out.println("3. : ");
             System.out.println("4. : ");
