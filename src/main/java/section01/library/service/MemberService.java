@@ -1,7 +1,8 @@
 package section01.library.service;
 
-import com.rrangssung.section01.library.repository.BookRepository;
-import com.rrangssung.section01.library.repository.MemberRepository;
+
+import section01.library.repository.BookRepository;
+import section01.library.repository.MemberRepository;
 
 public class MemberService {
 
