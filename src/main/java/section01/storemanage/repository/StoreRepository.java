@@ -71,4 +71,8 @@ public class StoreRepository {
             }
         }
     }
+
+    public ArrayList<Product> selectAllProducts() {
+        return productList;
+    }
 }
