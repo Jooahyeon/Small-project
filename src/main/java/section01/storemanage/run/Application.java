@@ -18,12 +18,12 @@ public class Application {
             System.out.println("4. 상품 삭제");
             System.out.println("5. 상품 등록");
             System.out.println("9. 프로그램 종료");
-            System.out.print("몇 번을 입력하시겠습니까? ");
+            System.out.print("몇 번을 입력하시겠습니까? : ");
             int input = sc.nextInt();
 
             switch (input) {
                 case 1: ss.findAllProducts(); break;
-                case 2: break;
+                case 2: ss.findProductsBy(chooseProNum()); break;
                 case 3: break;
                 case 4: break;
                 case 5: break;
@@ -33,5 +33,12 @@ public class Application {
                     System.out.println("숫자 입력 다시");
             }
         }
+    }
+
+    private static int chooseProNum() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("찾고자 하는 상품 번호를 입력하세요 : ");
+        return sc.nextInt();
+
     }
 }
