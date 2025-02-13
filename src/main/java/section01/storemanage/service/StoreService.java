@@ -20,9 +20,4 @@ public class StoreService {
             System.out.println(product);
         }
     }
-
-    public void findProductsBy(int productID) {
-
-        Product product = sr.
-    }
 }
