@@ -75,4 +75,25 @@ public class StoreRepository {
     public ArrayList<Product> selectAllProducts() {
         return productList;
     }
+
+    public Product getProductsNum(int choosenum) {
+
+        Product findbynumproduct = null;
+        for (Product products : productList){
+            if(products.getProductID() == choosenum) {
+                findbynumproduct =  products;
+            }
+        }
+
+        return findbynumproduct;
+
+    }
+
+
+    public Product modifyProducts(Product selected) {
+
+
+
+    }
 }
+
